@@ -1,0 +1,19 @@
+<div class="container">
+                  This is home view, from the backbone application demonstration.
+                 <br>
+                <div class="jumbotron">
+                 To go next just click here <a class="btn btn-primary" href="#second">goSecond</a>
+                 <br><br>
+                <input type="text" id="name" class="text-primary"/><button class="btn btn-primary" id="add">Add</button>
+           </div>
+                 
+                 List of names
+                 <div class="list">
+                        <ul>
+                        <%
+                         _.each(backboneApp.Collections.myCollection.toJSON(), function(data) { %>
+                         <li> <%= data.name %></li>
+                        <%});%>
+                        </ul>
+                    </div>
+</div>
