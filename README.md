@@ -195,8 +195,11 @@ Now press enter. After the installation use the following command to see the new
 
    Please, note that I’ve used bootstrap classes to highlight the html with the bootstrap grid rendition. You can use without those classes also, if you’re not familiar with bootstrap.css. And in the anchor tag i used href=”#second”. Please find that # is prefixed with the url, which is really unusual isn’t it?. By prefixing # in the href would result that, the new url suffixed with the string in the href. For example here I used href=”#second” this results me if my url is http://www.welcome-home.com/index.html then the anchored new url would be like http://www.welcome-home.com/index.html/second. So, in a nutshell the index.html still be there, only the contents are changing according to the url suffixes.
 
-   Next, select the second.html replace string <p>Your content here. </p> by the below code.
-
+   Next, select the second.html replace string
+   
+    <p>Your content here.</p> 
+    
+   by the below code.
    This is second view from the backbone.js demonstration
    goBack
 
